@@ -1,0 +1,7 @@
+pygments: true
+markdown: rdiscount
+permalink: /blog/:title/
+comments :
+  provider : disqus  
+  disqus :
+    short_name : team-room
