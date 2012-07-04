@@ -1,6 +1,6 @@
 ﻿/*SHARED*/
 body{background:url(/images/bg.png);color:#333;font-family:"Segoe UI Light", "Segoe UI","Helvetica",Garuda,Arial,sans-serif;font-weight:100;}
-a{color:#36BCAB;text-decoration:none;}
+a{color:#B8B8B8;text-decoration:none;}
 a:hover{text-decoration:none; border-bottom:1px dotted;}
 .disqus-count-text { display:none; }
 .addthis_toolbox a{border:none;}
@@ -13,20 +13,26 @@ span.subtitle{margin-top:0;text-shadow:1px 1px 1px #CCC;}
 form.search_form{float:right; margin-top:-45px;}
 
 /*CONTAINER*/
-div.container{position:relative;box-shadow:0 25px 75px rgba(0,0,0,.3); background-color:White;width:840px;margin:-10px auto 60px auto;border-top:2px solid #000000;}
-div.page{padding:20px;}
+div.container{display:inline-block;}
+div.main_container{float:left;position:relative; background-color:White;width:640px;margin:-10px auto 60px 200px;border-top:2px solid #000000;}
+div.right_container{padding-left: 15px;margin-left: 800px;height:600px;display:block; background-color:White;border-top:2px solid #000000;width:230px;margin:-10px auto 60px 850px}
+div.right_container  h2{margin-bottom: 5px;}
+div.right_container ul{padding:0px;margin-top: 5px;}
+div.right_container ul li{list-style:none;}
+div.page{padding:0px 20px 20px;}
 
 /*HOME*/
 div.index_meta{display:inline-block;width:600px;height:30px;padding:3px 0 0 3px;}
 div.index_meta div {float:left;margin-right:35px;padding-left:20px;}
 span.index_meta{font-size:13px;}
 div.post_date{background:url("/images/dateIcon.gif") no-repeat scroll left 5px transparent;}
+div.post_author{background:url("/images/authorIcon.gif") no-repeat scroll left 5px transparent;}
 div.post_comments_count{background:url("/images/commentsIcon.gif") no-repeat scroll left 5px transparent;}
 div.post_content p{margin:0px 0px 20px;}
 
 /*POST*/
 h1.post_title{margin:20px 0px 0px;}
-h1.post_title, h1.post_title a{text-decoration:none;color:#36BCAB;text-shadow:2px 2px 2px #ddd;}
+h1.post_title, h1.post_title a{text-decoration:none;color:#A8A8A8;text-shadow:2px 2px 2px #ddd;}
 div.post_content h2{text-shadow:2px 2px 2px #ddd;}
 div.post_comments_count a{color:#333}
 div.post_tags ul {padding:0px;}
