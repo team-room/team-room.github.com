@@ -8,14 +8,32 @@ a:hover{text-decoration:none; border-bottom:1px dotted;}
 
 /*HEADER*/
 header{width:840px;margin:auto;}
-h1.title, h1.title a, h1.title a:visited, h1.title a:hover{font-size:48px;text-shadow:2px 2px 2px #ddd;color:#333;text-decoration:none;margin:0px 0px 10px;border:none;}
+h1.title, h1.title a, h1.title a:visited, h1.title a:hover{font-size:48px;text-shadow:2px 2px 2px #ddd;color:#333;text-decoration:none;margin: 0px;border:none;}
 span.subtitle{margin-top:0;text-shadow:1px 1px 1px #CCC;}
 form.search_form{float:right; margin-top:-45px;}
 
 /*CONTAINER*/
-div.container{display:inline-block;}
-div.main_container{float:left;position:relative; background-color:White;width:640px;margin:-10px auto 60px 200px;border-top:2px solid #000000;}
-div.right_container{padding-left: 15px;margin-left: 800px;height:600px;display:block; background-color:White;border-top:2px solid #000000;width:230px;margin:-10px auto 60px 850px}
+div.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+div.main_container {
+	float:left;
+	background-color:White;
+	border-top:2px solid #000000;
+}
+
+div.right_container {
+	float: left;
+	padding-left: 15px;
+	height:600px;
+	background-color:White;
+	border-top:2px solid #000000;
+	width:230px;
+	margin-left: 25px;
+}
+
 div.right_container  h2{margin-bottom: 5px;}
 div.right_container ul{padding:0px;margin-top: 5px;}
 div.right_container ul li{list-style:none;}
