@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div id="post">
+	<h1 class="post_title">{{ page.title}}</h1>
+	<div class="index_meta">
+		<div class="post_author">{{ page.author }}</div>
+		<div class="post_date">{{ page.date | date: "%d/%m/%Y" }}</div>
+		<div class="post_comments_count"><a href="{{page.url}}#disqus_thread" data-disqus-identifier="{{page.id}}">Deixe um coment&aacute;rio</a></div>			
+	</div>	
+	<div class="post_content">
+		{{ content }}
+	</div>
+	<!-- AddThis Button BEGIN -->
+	<div class="addthis_toolbox addthis_default_style ">
+		<a class="addthis_button_preferred_1"></a>
+		<a class="addthis_button_preferred_2"></a>
+		<a class="addthis_button_preferred_3"></a>
+		<a class="addthis_button_preferred_4"></a>
+		<a class="addthis_button_compact"></a>
+		<a class="addthis_counter addthis_bubble_style"></a>
+	</div>
+	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f8b082866706103"></script>
+	<!-- AddThis Button END -->
+    <h3><a href="/">Voltar</a></h3>
+</div>
+<div id="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">		
+		var disqus_shortname = 'team-room';
+		var disqus_identifier = '{{ page.id }}';
+		
+		(function() {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+	</script>	
+	<noscript>Por favor ative o Javascript de seu navegador para poder visualizar os <a href="http://disqus.com/?ref_noscript">comentários do post via Disqus.</a></noscript>
+</div>
