@@ -32,7 +32,7 @@ div.post_content p{margin:0px 0px 20px;}
 
 /*POST*/
 h1.post_title{margin:20px 0px 0px;}
-h1.post_title, h1.post_title a{text-decoration:none;color:#A8A8A8;text-shadow:2px 2px 2px #ddd;}
+h1.post_title, h1.post_title a{font-size:30px;text-decoration:none;color:#A8A8A8;text-shadow:2px 2px 2px #ddd;}
 div.post_content h2{text-shadow:2px 2px 2px #ddd;}
 div.post_comments_count a{color:#333}
 div.post_tags ul {padding:0px;}
