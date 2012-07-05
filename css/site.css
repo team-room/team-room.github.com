@@ -52,3 +52,8 @@ div#all_categories ul {padding:0px;}
 div#all_categories ul li{list-style:none;}
 div#all_tags ul {padding:0px;}
 div#all_tags ul li {display:inline;margin:5px;}
+
+#sidebar-links a {
+	color: #A8A8A8;
+	font-weight: bold;
+}
