@@ -28,14 +28,14 @@ O resultado pode ser acessado clicando [aqui][ResultadoUrl].
 
 Em breve teremos o segundo, que pretendemos utilizar a linguagem Ruby, aguardem por mais informações!
 
-Abraços.
+Abraços
 
-[DyegoCosta]:http://twitter.com/dyegoscosta   "Dyego Costa"
-[FelipeZini]:http://twitter.com/fzini         "Felipe Zini"
-[IgorBozato]:http://twitter.com/igorbozato    "Igor Bozato"
-[IgorRozani]:http://twitter.com/igorrozani    "Igor Rozani"
-[ItaloGirotto]:http://twitter.com/imgirotto   "Ítalo Girotto"
-[Juninho]:http://twitter.com/jobadiniz        "Joberto Diniz"
-[RafaelTozato]:http://twitter.com/rtozato     "Rafael Tozato"
+[DyegoCosta]:http://twitter.com/dyegoscosta
+[FelipeZini]:http://twitter.com/fzini
+[IgorBozato]:http://twitter.com/igorbozato
+[IgorRozani]:http://twitter.com/igorrozani
+[ItaloGirotto]:http://twitter.com/imgirotto
+[Juninho]:http://twitter.com/jobadiniz        "Juninho"
+[RafaelTozato]:http://twitter.com/rtozato
 [CaixaEletronicoDojoPuzzles]: http://dojopuzzles.com/problemas/exibe/caixa-eletronico/
 [ResultadoUrl]:https://github.com/team-room/CaixaEletronico
