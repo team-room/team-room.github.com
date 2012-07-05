@@ -11,7 +11,7 @@ title: TEAMROOM
 		<div class="post_comments_count"><a href="{{post.url}}#disqus_thread" data-disqus-identifier="{{post.id}}">Deixe um coment&aacute;rio</a></div>			
 	</div>
 	<div class="post_content">
-		{{ post.content | truncate: 450 }} <a class="continue_lendo" href="{{ post.url }}">Continue lendo &rarr;</a>
+		{{ post.content | truncate: 400 }} <a class="continue_lendo" href="{{ post.url }}">Continue lendo &rarr;</a>
 	</div>
 </div>	
 {% endfor %}
