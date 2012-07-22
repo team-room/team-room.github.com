@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: 'Primeiro Team on Dojo, Caixa eletronico'
+title: '#1 Team on Dojo, Caixa eletronico, C#'
 author: 'Dyego Costa'
 ---
 
