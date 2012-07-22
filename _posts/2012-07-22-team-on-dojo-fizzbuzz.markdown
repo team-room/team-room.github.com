@@ -32,7 +32,7 @@ Tivemos um total de 14 rodadas (nenhum par repetido) de 5 minutos cada, o que re
 <p class="post_img_subtitle">Mais uma vez tivemos o apoio da Fatec Rio Preto que nos cedeu uma sala bem legal (dessa vez mais legal ainda!).</p>
 
 <img alt="" src="/images/fizzbuzz_fechamento.jpg" class="post_img"/>
-<p class="post_img_subtitle">Também tivemos um ótimo fechamento da Doçura!</p>
+<p class="post_img_subtitle">Também tivemos um ótimo fechamento na Doçura!</p>
 
 
 Ainda está para ser definido a data e linguagem do próximo Dojo, mas há grandes chances de ser em Phyton, fiquem ligados!
