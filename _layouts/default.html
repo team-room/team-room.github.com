@@ -6,6 +6,14 @@
 		<title>{{ page.title }}</title>		
 	</head>	
 	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=256075271098072";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 		<div id="page">
 			<header>			
 				<h1 class="title"><a href="/">TEAMROOM</a></h1>				
@@ -44,6 +52,8 @@
 							<a href="/blog/team-on-dojo-fizzbuzz">21/07/2012 » FizzBuzz</a>
 						</li>
 					</ul>
+					
+					<div class="fb-like-box" data-href="https://www.facebook.com/teamroomrp" data-width="200" data-show-faces="true" data-stream="true" data-header="true"></div>
 				</div>
 			</div>
 			<footer>
