@@ -9,19 +9,9 @@
 </head>	
 
 <body>
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=256075271098072";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
     <header>			
         <div class="container">
             <a class="brand" href="/">TEAMROOM</a>             
-            <a>Sobre</a>
             <form method="GET" action="http://www.google.com/search" class="search_form">
                 <input type="hidden" name="ie" value="UTF-8">
                 <input type="hidden" name="oe" value="UTF-8">
@@ -39,41 +29,20 @@
             {{content}}                                 
         </div>
     </div>
+    <footer> </footer>
 
-    <div class="right_container">
-        <nav id="sidebar-links">
-           <ul>
-               <li><a href="/about">Sobre</a></li>
-               <li><a target="_blank" href="https://groups.google.com/group/team-room?hl=pt-BR">No Google Groups</a></li>
-           </ul>
-        </nav>
+    <a href="http://github.com/team-room/team-room.github.com" target="_none"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://a248.e.akamai.net/camo.github.com/5d21241b64dc708fcbb701f68f72f41e9f1fadd6/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>		
 
-        <h2>TEAM ON DOJO</h2>
-        <ul>
-            <li>
-                <a href="/blog/team-on-dojo-caixa-eletronico">30/06/2012 » Caixa Eletronico</a>
-            </li>
-            <li>
-                <a href="/blog/team-on-dojo-fizzbuzz">21/07/2012 » FizzBuzz</a>
-            </li>
-        </ul>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-24989932-3']);
+    _gaq.push(['_trackPageview']);
 
-        <div class="fb-like-box" data-href="https://www.facebook.com/teamroomrp" data-width="200" data-show-faces="true" data-stream="true" data-header="true"></div>
-    </div>
-<footer>
-
-</footer>				
-<a href="http://github.com/team-room/team-room.github.com" target="_none"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://a248.e.akamai.net/camo.github.com/5d21241b64dc708fcbb701f68f72f41e9f1fadd6/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>		
-<script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-24989932-3']);
-_gaq.push(['_trackPageview']);
-
-(function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-</script>
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
 </body>
 </html>
