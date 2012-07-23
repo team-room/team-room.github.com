@@ -109,7 +109,7 @@ span.index_meta{font-size:13px;}
 div.post_date{background:url("/images/dateIcon.gif") no-repeat scroll left 5px transparent;}
 div.post_author{background:url("/images/authorIcon.gif") no-repeat scroll left 5px transparent;}
 div.post_comments_count{background:url("/images/commentsIcon.gif") no-repeat scroll left 5px transparent;}
-div.post_content p{margin:0px 0px 20px;}
+div.post_content p{margin-top: 10px;}
 
 /*POST*/
 h1.post_title{margin:20px 0px 0px;}

@@ -8,6 +8,9 @@ layout: default
 		<div class="post_date">{{ page.date | date: "%d/%m/%Y" }}</div>
 		<div class="post_comments_count"><a href="{{page.url}}#disqus_thread" data-disqus-identifier="{{page.id}}">Deixe um coment&aacute;rio</a></div>			
 	</div>	
+	<p>
+		<a href="/">Voltar</a>
+	</p>
 	<div class="post_content">
 		{{ content }}
 	</div>
@@ -22,7 +25,6 @@ layout: default
 	</div>
 	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f8b082866706103"></script>
 	<!-- AddThis Button END -->
-    <h3><a href="/">Voltar</a></h3>
 </div>
 <div id="comments">
 	<div id="disqus_thread"></div>
