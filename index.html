@@ -2,16 +2,27 @@
 layout: default
 title: TEAMROOM
 ---
-{% for post in site.posts limit:5  offset:0 %}
-<div id="post">
-	<h1 class="post_title"><a href="{{ post.url }}">{{ post.title}}</a></h1>
-	<div class="index_meta">
-		<div class="post_author">{{ post.author }}</div>
-		<div class="post_date">{{ post.date | date: "%d/%m/%Y" }}</div>
-		<div class="post_comments_count"><a href="{{post.url}}#disqus_thread" data-disqus-identifier="{{post.id}}">Deixe um coment&aacute;rio</a></div>			
+
+<div id="banner">
+	<h1>TeamRoom</h1>
+	<p>
+		Grupo de desenvolvedores da região de <br>São José do Rio Preto.
+		<small><a href="/about">Saiba mais</a>.</small>
+	</p>
+
+	<div class="banner-links">
+		<a target="_blank" href="https://groups.google.com/group/team-room?hl=pt-BR">Google Groups</a> |
+		<a target="_blank" href="https://github.com/team-room">Github</a> |
+		<a target="_blank" href="http://www.facebook.com/teamroomrp">Facebook</a> 
 	</div>
-	<div class="post_content">
-		{{ post.content | truncate: 400 }} <a class="continue_lendo" href="{{ post.url }}">Continue lendo &rarr;</a>
+</div>
+
+{% for post in site.posts limit:5  offset:0 %}
+<div class="post">
+	<h2><a href="{{ post.url }}">{{ post.title}}</a></h2>
+	<div class="post-content">
+		{{ post.content | truncate: 300 }} <br>
+		<a href="{{ post.url }}">Continue lendo &rarr;</a>	
 	</div>
 </div>	
 {% endfor %}
