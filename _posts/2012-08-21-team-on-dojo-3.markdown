@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: 'Team on Dojo #3'
+title: 'Team on Dojo &#35;3'
 author: 'Igor Bozato'
 ---
 
