@@ -16,7 +16,7 @@ Todos participaram da codificação. Dessa vez antes de começarmos o [Jonas Gal
 
 Não vou comentar da dificuldade de todos na utilização de um Macbook, mas, o segredo o [Dyego Costa][DyegoCosta] disse na hora "É só não olhar pro teclado".
 
-<img alt="" src="/images/escrevendonocelular_coding.jpg" class="post_img"/>
+<img alt="" src="/images/escrevendonocelular_coding.JPG" class="post_img"/>
 
 Os participantes foram
 
